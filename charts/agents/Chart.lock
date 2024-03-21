@@ -1,0 +1,15 @@
+dependencies:
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.3.2
+- name: omnirpc
+  repository: file://../omnirpc/
+  version: 0.2.91
+- name: scribe
+  repository: file://../scribe/
+  version: 0.2.15
+- name: jaeger
+  repository: https://jaegertracing.github.io/helm-charts
+  version: 0.69.1
+digest: sha256:7b9ac6625ebd1bbb31b539dda69c5399b3285ad05287fba122e355e57a434bed
+generated: "2023-11-01T00:44:48.396983-05:00"

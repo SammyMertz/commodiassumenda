@@ -1,0 +1,98 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "downlevelIteration": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "paths": {
+      "@assets/": [
+        "./assets"
+      ],
+      "@assets/icons/": [
+        "./assets/icons"
+      ],
+      "@assets/networks/": [
+        "./assets/networks"
+      ],
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@components": [
+        "./components"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@tw": [
+        "./components/tailwind"
+      ],
+      "@tw/*": [
+        "./components/tailwind/*"
+      ],
+      "@layouts": [
+        "./components/layouts"
+      ],
+      "@layouts/*": [
+        "./components/layouts/*"
+      ],
+      "@icons": [
+        "./components/icons"
+      ],
+      "@icons/*": [
+        "./components/icons/*"
+      ],
+      "@urls": [
+        "./utils/urls"
+      ],
+      "@urls/*": [
+        "./utils/urls/*"
+      ],
+      "@utils": [
+        "./utils"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ],
+      "@constants": [
+        "./constants"
+      ],
+      "@constants/*": [
+        "./constants/*"
+      ],
+      "@graphql": [
+        "./graphql"
+      ],
+      "@graphql/*": [
+        "./graphql/*"
+      ],
+      "@styles": [
+        "./utils/styles"
+      ],
+      "@styles/*": [
+        "./utils/styles/*"
+      ]
+    },
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+  ],
+  "exclude": ["node_modules"]
+}

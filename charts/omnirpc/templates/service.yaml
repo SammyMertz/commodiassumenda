@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "omnirpc.fullname" . }}
+  labels:
+    {{- include "omnirpc.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    {{- range .Values.service.ports }}
+    - name: {{ .name }}
+      port: {{ .port }}
+      targetPort: {{ .containerPort }}
+    {{- end }}
+  selector:
+    {{- include "omnirpc.selectorLabels" . | nindent 4 }}

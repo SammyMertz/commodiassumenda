@@ -1,0 +1,9 @@
+dependencies:
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.3.2
+- name: omnirpc
+  repository: file://../omnirpc/
+  version: 0.2.91
+digest: sha256:7996a0999644426256ef1218066ed3dc408004204324cd94f4d8e044fa57374b
+generated: "2023-11-01T00:44:55.324185-05:00"
